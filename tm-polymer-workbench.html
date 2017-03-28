@@ -5,11 +5,17 @@
     <style>
       :host {
         display: inline-block;
-        width:500px;
+        width:100%;
       }
     </style>
     <h2>Polymer Component Testing Workbench</h2>
-    <test-tm-neo4j></test-tm-neo4j>
+
+
+    <tm-app-structure app-title="Polymer Component Testing Workbench"
+                      titles="tm-neo4j"
+                      selected="0">
+      <test-tm-neo4j></test-tm-neo4j>
+    </tm-app-structure>
   </template>
 
   <script>
