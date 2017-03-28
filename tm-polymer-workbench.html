@@ -1,0 +1,29 @@
+<link rel="import" href="elements.html">
+
+<dom-module id="tm-polymer-workbench">
+  <template>
+    <style>
+      :host {
+        display: inline-block;
+        width:500px;
+      }
+    </style>
+    <h2>Polymer Component Testing Workbench</h2>
+    <test-tm-neo4j></test-tm-neo4j>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'tm-polymer-workbench',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'tm-polymer-workbench',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
